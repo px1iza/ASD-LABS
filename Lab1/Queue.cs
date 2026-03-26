@@ -15,30 +15,31 @@ public class Queue
         tail = -1;
     }
 
-    public bool isFull()
+    public bool IsFull()
     {
         return count == arr.Length;
     }
 
-    public bool isEmpty()
+    public bool IsEmpty()
     {
         return count == 0;
     }
-
     public bool Enqueue(int value)
     {
-        if (isFull())
+        if (IsFull())
+        {
             return false;
+        }
 
         tail++;
         arr[tail] = value;
         count++;
+
         return true;
     }
-
     public int Dequeue()
     {
-        if (isEmpty())
+        if (IsEmpty())
             throw new Exception("Черга порожня");
 
         int removed = arr[head];
@@ -47,9 +48,9 @@ public class Queue
         {
             arr[i - 1] = arr[i];
         }
+
         tail--;
         count--;
-
         return removed;
     }
     public void Print()
@@ -59,10 +60,6 @@ public class Queue
             Console.Write(arr[i] + " ");
         }
         Console.WriteLine();
-    }
-    public int Last()
-    {
-        return isEmpty() ? 0 : arr[tail];
     }
 
 }

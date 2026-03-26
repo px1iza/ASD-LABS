@@ -2,8 +2,8 @@ using System;
 
 class Node
 {
-    public int data;
-    public Node next;
+    public int data;   // значення елемента
+    public Node next;  // посилання на наступний елемент
 
     public Node(int value)
     {

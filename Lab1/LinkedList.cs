@@ -2,7 +2,7 @@ class LinkedList
 {
     private Node head;
 
-    public bool isEmpty()
+    public bool IsEmpty()
     {
         return head == null;
     }
@@ -11,13 +11,14 @@ class LinkedList
     {
         Node newNode = new Node(value);
 
-        if (isEmpty())
+        if (IsEmpty())
         {
             head = newNode;
             return;
         }
 
         Node temp = head;
+
         while (temp.next != null)
         {
             temp = temp.next;
@@ -28,11 +29,12 @@ class LinkedList
 
     public int Delete()
     {
-        if (isEmpty())
+        if (IsEmpty())
             throw new Exception("Список порожній");
 
         int value = head.data;
         head = head.next;
+
         return value;
     }
 

@@ -34,34 +34,33 @@ public class Program
         list.Print();
 
 
-        //3завдання
-        LinkedList list2 = new LinkedList();
-        Queue queue2 = new Queue(10); // створюємо чергу 
+        //3 завдання
+        LinkedList mylist2 = new LinkedList();
+        Queue myqueue2 = new Queue(10);
 
-        list2.Insert(-5);
-        list2.Insert(3);
-        list2.Insert(7);
-        list2.Insert(-2);
-        list2.Insert(4);
+        mylist2.Insert(-5);
+        mylist2.Insert(3);
+        mylist2.Insert(7);
+        mylist2.Insert(-2);
+        mylist2.Insert(4);
         Console.WriteLine("Список 2 після вставки:");
-        list2.Print();
+        mylist2.Print();
 
-        int prev = 0;
+        int total = 0;
 
-        while (!list2.isEmpty())
+        while (!mylist2.IsEmpty())
         {
-            int value = list2.Delete();
-            if (value > 0)
-            {
-                prev += value;      // сума попереднього + поточного
-                queue2.Enqueue(prev);
-            }
-        }
-        Console.WriteLine("Список 2 після видалення додатніх елементів:");
-        list2.Print(); // залишилися лише від’ємні (якщо потрібно)
+            int current = mylist2.Delete();
 
+            if (current <= 0)
+                continue;
+
+            total += current;
+
+            myqueue2.Enqueue(total);
+        }
         Console.WriteLine("Черга після переносу додатніх елементів:");
-        queue2.Print();
+        myqueue2.Print();
 
 
     }
