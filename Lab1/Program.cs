@@ -18,7 +18,6 @@ public class Program
         Console.WriteLine("Черга після видалення:");
         q.Print();
 
-        //2завдання
         LinkedList list = new LinkedList();
 
         list.Insert(10);
@@ -34,7 +33,6 @@ public class Program
         list.Print();
 
 
-        //3 завдання
         LinkedList mylist2 = new LinkedList();
         Queue myqueue2 = new Queue(10);
 
@@ -47,21 +45,29 @@ public class Program
         mylist2.Print();
 
         int total = 0;
+        LinkedList tempList = new LinkedList();
 
         while (!mylist2.IsEmpty())
         {
             int current = mylist2.Delete();
 
-            if (current <= 0)
-                continue;
-
-            total += current;
-
-            myqueue2.Enqueue(total);
+            if (current > 0)
+            {
+                total += current;
+                myqueue2.Enqueue(total);
+            }
+            else
+            {
+                tempList.Insert(current);
+            }
         }
+        mylist2 = tempList;
+
         Console.WriteLine("Черга після переносу додатніх елементів:");
         myqueue2.Print();
 
+        Console.WriteLine("Список після переносу додатніх елементів:");
+        mylist2.Print();
 
     }
 }
