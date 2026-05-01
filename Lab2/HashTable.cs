@@ -35,7 +35,6 @@ class HashTable
                 return true;
             }
         }
-
         return false;
     }
 

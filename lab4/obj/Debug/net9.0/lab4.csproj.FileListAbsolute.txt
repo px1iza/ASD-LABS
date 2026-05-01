@@ -1,0 +1,15 @@
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/bin/Debug/net9.0/lab4
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/bin/Debug/net9.0/lab4.deps.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/bin/Debug/net9.0/lab4.runtimeconfig.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/bin/Debug/net9.0/lab4.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/bin/Debug/net9.0/lab4.pdb
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.AssemblyInfoInputs.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.AssemblyInfo.cs
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.csproj.CoreCompileInputs.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.sourcelink.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/refint/lab4.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.pdb
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/lab4.genruntimeconfig.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab4/obj/Debug/net9.0/ref/lab4.dll
