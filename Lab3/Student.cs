@@ -5,7 +5,6 @@ namespace Lab3
         public string Surname { get; set; }
         public string Name { get; set; }
         public int Course { get; set; }
-
         public uint StudentID { get; set; }
         public DateTime DataOfBirth { get; set; }
 
