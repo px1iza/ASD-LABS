@@ -1,0 +1,15 @@
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/bin/Debug/net9.0/lab6
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/bin/Debug/net9.0/lab6.deps.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/bin/Debug/net9.0/lab6.runtimeconfig.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/bin/Debug/net9.0/lab6.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/bin/Debug/net9.0/lab6.pdb
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.AssemblyInfoInputs.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.AssemblyInfo.cs
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.csproj.CoreCompileInputs.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.sourcelink.json
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/refint/lab6.dll
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.pdb
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/lab6.genruntimeconfig.cache
+/Users/elizavetarabirokh/Desktop/ASD-Labs/lab6/obj/Debug/net9.0/ref/lab6.dll
